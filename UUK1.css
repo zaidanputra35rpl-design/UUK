@@ -1,0 +1,163 @@
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+                       
+        header {
+            background-color: #465066;
+            border: 2px solid #384961;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            color: #c7d2e0;
+        }
+
+       
+        section.produk {
+            display: flex;
+            gap: 20px;
+            padding: 5px;
+            border: 2px  #6b7280;
+            margin-bottom: 30px;
+            background-color: #ffffff;
+               
+        }
+
+        article.produk {
+            border: 2px solid #4b5563;
+            padding: 50px;
+            text-align: center;
+            background-color: #f1ecec;
+            border-radius: 20px;    
+            
+        }
+
+        article.produk img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            background-color: #f3f4f6;
+            border: 1px solid #9ca3af;
+            margin-bottom: 12px;
+        }
+
+        article.produk h3 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: #111827;
+        }
+
+        article.produk p {
+            color: #4b5563;
+            font-weight: 500;
+        }
+
+
+        
+        form#formPesan {
+            max-width: 600px;
+            margin: 0  auto ;
+            padding: 10px 30px;
+            border: 3px solid #4b5563;
+            background-color: #f1ecec;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        form#formPesan h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.3rem;
+            color: #1f2937;
+        }
+
+        
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            width: 100px;
+            font-weight: bold;
+            padding-top: 8px;
+            flex-shrink: 0;
+        }
+
+        #produk {
+           width: 100px;
+            font-weight: bold;
+            padding-top: 8px;
+            flex-shrink: 0;
+        }
+
+        .form-group input,
+        .form-group input,
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            flex: 1;
+            padding: 8px 12px;
+            border: 1px solid #6b7280;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 20px;
+            padding-top: 8px;
+        }
+
+        .radio-group label {
+            width: auto;
+            font-weight: normal;
+            padding-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+        }
+
+        .form-actions {
+            margin-left: 160px;
+            margin-top: 20px;
+        }
+
+        button[type="submit"] {
+            background-color: #dbeafe;
+            color: #2563eb;
+            border: 2px solid #3b82f6;
+            padding: 10px 35px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+            margin: 10px;
+            
+        }
+
+        button:hover {
+            background-color: #bfdbfe;
+        }
+
+        
+        footer {
+            background-color: #e5e7eb;
+            padding: 5px;
+            text-align: center;
+            font-size: 0.95rem;
+        }

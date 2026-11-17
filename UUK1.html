@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UUK1.css">
+</head>
+<body>
+    <header> 
+        <h1>nama toko</h1>
+    </header>
+
+    <section class="produk">
+        <article class="produk">
+            <img src="image.png" alt="gambar">
+            <h3>nama barang</h3>
+            <p>RP10.000</p>
+        </article>       
+
+        <article class="produk">
+            <img src="image.png" alt="gambar">
+            <h3>nama barang</h3>
+            <p>RP10.000</p>
+        </article>     
+
+        <article class="produk">
+            <img src="image.png" alt="gambar">
+            <h3>nama barang</h3>
+            <p>RP10.000</p>
+        </article>       
+    </section>
+    <form id="formPesan" action="#">
+        <h1>form pemesanan</h1>
+        
+        <div class="form-group">
+            <label for="nama">nama pemesanan</label>
+            <input type="text" id="nama" required minlength="3" maxlength="50" pattern="[a-zA-Z/s]+">
+        </div>
+
+        <div class="form-group">
+            <label for="nomor">nomor hp</label>
+            <input type="tel" id="nomer" pattern="[0-9]
+            {10,13}"required title="Isi 10
+            sampai 13 angka">
+        </div>
+        <div class="form-group">
+            <label for="produk">produk</label>
+            <select name="" id="" required>
+                <option value="">--pilihan--</option>
+                <option value="">klepon</option>
+                <option value="">klepon</option>
+                <option value="">klepon</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <label for="jumlah">jumlah</label>
+            <input type="number" id="jumlah" required min="1" max="20">
+        </div>
+        <div class="form-group">
+            <label for="metode pembayatan">metode bayar</label>
+            <label>
+                <input type="radio" name="bayar" id="bayar1">QRIS
+            </label> 
+            <label>
+                <input type="radio" name="bayar" id="bayar2">TF
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="alamat">alamat</label>
+            <textarea name="alamat" id="alamat" minlength="10" maxlength="200"></textarea>
+        </div>
+
+        <button class="button" type="submit">pesan</button>
+    </form>    
+
+        
+        <hr>
+
+        <footer class="footer">
+            <p>kontak toko</p>
+        </footer>
+    
+</body>
+</html>
